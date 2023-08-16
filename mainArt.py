@@ -1,6 +1,6 @@
 # Boeing Programming Camp 2023
 # Python Turtle Art Demo : Day 3
-
+# Lecture guide / activity to guide understanding of turtle
 
 
 # Questions for students:  Sections are separated with comment blocks. After copy-pasting a section, look at the following parts: 
@@ -21,7 +21,17 @@ for c in ['red', 'green', 'blue', 'yellow']:
     t.forward(75) # what happens when we change these integers? What do they determine?
     t.left(90)
 
-# Second code block: a star! Delete the first block and copy this block into your repl.it file. 
+# Second code block: A triangle. 
+for i in range(1):
+    forward(100)
+    left(120)
+    forward(100)
+    left(120)
+    forward(100)
+    left(120)
+
+
+# Third code block: a star! 
 from turtle import *
 color('red', 'yellow')
 begin_fill()
@@ -33,7 +43,21 @@ while True:
 end_fill()
 done()
 
-# Last code block : a smiley face. Remember to comment out or delete the code blocks we're done with, we are only inspecting one-at-a-time for now. 
+# Fourth code block: a snowflake! 
+for i in range(6):
+      color("pink")
+      forward(100)
+      left(30)
+      forward(50)
+      backward(50)
+      right(60)
+      forward(50)
+      backward(50)
+      left(30)
+      backward(100)
+      right(60)
+
+# Last code block : a smiley face. 
 import turtle
 
 # turtle object
